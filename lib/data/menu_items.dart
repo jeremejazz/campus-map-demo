@@ -36,4 +36,15 @@ var menuItems = [
         'https://olivarezmaps.netlify.app/maps/maps/rosario_de_leon_bldg/1f/rosario_de_leon_bldg',
     icon: 0xe5d4,
   ),
+  MenuItem(
+    title: "Building #5",
+    url:
+        'https://olivarezmaps.netlify.app/maps/maps/saturnina_bldg/1f/saturnina',
+    icon: 0xe2e3,
+  ),
+  MenuItem(
+    title: "Pool Area",
+    url: 'https://olivarezmaps.netlify.app/maps/maps/pe_bldg/pe_bldg',
+    icon: 0xe4dc,
+  ),
 ];

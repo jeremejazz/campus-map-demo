@@ -9,7 +9,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Campus Map")),
+      appBar: AppBar(title: Text("Campus Maps")),
       body: GridView.count(
         crossAxisCount: 2,
         padding: EdgeInsets.all(10),
@@ -23,7 +23,9 @@ class Home extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => WebMap(url: item.url),
+                          builder:
+                              (context) =>
+                                  WebMap(title: item.title, url: item.url),
                         ),
                       );
                     },
