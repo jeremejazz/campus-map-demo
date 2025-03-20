@@ -1,3 +1,5 @@
-# flutter_campus_map_demo
+# Flutter Campus Map (Demo)
 
-A new Flutter project.
+A demo application loads available maps for an example campus. 
+
+![Home Screen](screenshot.png)
