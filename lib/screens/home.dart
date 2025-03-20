@@ -18,7 +18,7 @@ class Home extends StatelessWidget {
                 .map(
                   (item) => ItemTile(
                     title: item.title,
-                    icon: item.icon,
+                    iconData: item.icon,
                     onPressed: () {
                       Navigator.push(
                         context,

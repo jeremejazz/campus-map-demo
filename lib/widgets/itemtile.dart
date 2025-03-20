@@ -3,12 +3,13 @@ import 'package:flutter/material.dart';
 class ItemTile extends StatelessWidget {
   final String title;
   final VoidCallback onPressed;
-  final int icon;
+
+  final IconData iconData;
   const ItemTile({
     super.key,
     required this.title,
     required this.onPressed,
-    this.icon = 0xe039,
+    required this.iconData,
   });
 
   @override
@@ -27,7 +28,7 @@ class ItemTile extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(IconData(icon, fontFamily: 'MaterialIcons'), size: 40),
+            Icon(iconData, size: 40),
             Text(title),
           ],
         ),
