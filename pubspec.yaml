@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_inappwebview: ^6.1.5
-  go_router: ^14.8.1
+  http: ^1.3.0
  
 
 
